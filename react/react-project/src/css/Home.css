@@ -1,0 +1,60 @@
+/* .home{
+    margin-top: 0%;
+    /* background-image: url("../../public/image/good.png"); */
+    /* width: 200%; */
+    /* height:auto; */
+    /* background-color: black; */
+/* } */ 
+
+
+.homepage-container {
+    display: flex;
+  }
+  
+  .image-section {
+    flex: 4; /* תמונה על חצי מהדף הימני */
+  }
+  
+  .image-section img {
+    margin-top: 10px;
+    width: 100%; /* התמונה ממלאת את כל המרחק בתוך התיק */
+    height: auto; /* מגדיר את הגובה כך שהתמונה תשמור על היחסים */
+  }
+  
+  .background-section {
+    flex: 1; /* רקע חום עם שתי פתורים בצד שמאל */
+    position: relative; /* מאפשר להשתמש בתכונת position: absolute בילדים שלו */
+  }
+  
+  .background {
+    background-color:#F5EEE6; /* רקע חום */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* רקע חצי מהדף */
+  }
+  
+  .buttons {
+    position: absolute;
+    top: 50%; /* ממוקם באמצע העמוד */
+    left: 20px; /* מרווח מהצד השמאלי */
+    transform: translateY(-50%); /* מזיז את האלמנט חצי מהעל*/
+  }
+  
+  .buttons button {
+    display: block;
+    margin-bottom: 10px; /* מרווח בין הכפתורים */
+  }
+ .buttons ,h1,text{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  .buttons ,h4,tt{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+  }
+  

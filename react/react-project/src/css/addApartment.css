@@ -1,0 +1,127 @@
+.addapartment{
+    /* background-color: aqua; */
+    border: solid rgb(135, 126, 126) 5px;
+width: 30%;
+margin-left: 30%;
+}
+.form{
+  background-color: white;
+      border: solid white 3px;
+width: 30%;
+margin-left: 35%;
+border-radius: 20px;
+/* margin-top: 5%; */
+}
+
+.login-form label {
+  margin-bottom: 5px;
+
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+.abc{
+  background-color:#F5EEE6; /* רקע חום */
+  ;
+}
+#submitBtn{
+       width: 100px;
+        height:50px;
+        background-color: #525558;
+        border: none;
+        color: white;
+        /* font-size: 18px; */
+        border-radius: 20%; /* עגוליות של המסגרת */
+        outline: none; /* מונע את העיגול שמופיע בתוך כפתורים בתוכניות גילוי */
+}
+#submitBtn:hover{
+  background-color: green;
+}
+#apartmentName {
+  padding: 10px 15px;
+  border: 2px solid green; /* גבול עם צבע */
+  border-radius: 20px; /* עיגולים בקצוות */
+  outline: none; /* מונע את העיגול הכחול הסביבות התיבה */
+  transition: border-color 0.3s ease; /* אנימציה של הגבול כאשר מתבצעים שינויים */
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+#apartmentInfo {
+  padding: 10px 15px;
+  border: 2px solid green; /* גבול עם צבע */
+  border-radius: 20px; /* עיגולים בקצוות */
+  outline: none; /* מונע את העיגול הכחול הסביבות התיבה */
+  transition: border-color 0.3s ease; /* אנימציה של הגבול כאשר מתבצעים שינויים */
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+#apartmentPrice {
+  padding: 10px 15px;
+  border: 2px solid green; /* גבול עם צבע */
+  border-radius: 20px; /* עיגולים בקצוות */
+  outline: none; /* מונע את העיגול הכחול הסביבות התיבה */
+  transition: border-color 0.3s ease; /* אנימציה של הגבול כאשר מתבצעים שינויים */
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+#apartmentNumBeds {
+  padding: 10px 15px;
+  border: 2px solid green; /* גבול עם צבע */
+  border-radius: 20px; /* עיגולים בקצוות */
+  outline: none; /* מונע את העיגול הכחול הסביבות התיבה */
+  transition: border-color 0.3s ease; /* אנימציה של הגבול כאשר מתבצעים שינויים */
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+#apartmentDescription {
+  padding: 10px 15px;
+  border: 2px solid green; /* גבול עם צבע */
+  border-radius: 20px; /* עיגולים בקצוות */
+  outline: none; /* מונע את העיגול הכחול הסביבות התיבה */
+  transition: border-color 0.3s ease; /* אנימציה של הגבול כאשר מתבצעים שינויים */
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+#apartmentaddress {
+  padding: 10px 15px;
+  border: 2px solid green; /* גבול עם צבע */
+  border-radius: 20px; /* עיגולים בקצוות */
+  outline: none; /* מונע את העיגול הכחול הסביבות התיבה */
+  transition: border-color 0.3s ease; /* אנימציה של הגבול כאשר מתבצעים שינויים */
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+#apartmentAdditives {
+  padding: 10px 15px;
+  border: 2px solid green; /* גבול עם צבע */
+  border-radius: 20px; /* עיגולים בקצוות */
+  outline: none; /* מונע את העיגול הכחול הסביבות התיבה */
+  transition: border-color 0.3s ease; /* אנימציה של הגבול כאשר מתבצעים שינויים */
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+#apartmentName:focus {
+  border-color: #484646; /* צבע הגבול כאשר התיבה נבחרת */
+}
+#apartment{
+  font-family:'Courier New', Courier, monospace;
+}

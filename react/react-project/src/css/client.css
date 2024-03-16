@@ -1,0 +1,68 @@
+.nav {
+    /* text-align: center; */
+    background-color: #F5EEE6;
+    /* height: 9rem;
+    width: 100vw;
+   
+    padding: 1rem 0;
+    margin-left: 120px;
+    margin-right:  320px;
+    justify-content: center;*/
+    font-family:bodoni FLF;
+    /* margin-top: 50px;  */
+    font-size: large;
+}
+#logo{
+    margin-top: 0rem;
+}
+.aaa{
+margin-top: 0%;
+}
+.link {
+    margin-top: 3rem;
+    color: black;
+    margin: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+   
+}
+
+.link:hover {
+    color:rgba(184, 86, 6, 0.543);
+}
+
+
+.add{
+    color:rgb(154, 108, 39);
+    font-size: large;
+   text-align: center; 
+}
+/* .aaaa{
+    text-align: center;
+     /* margin-right: 10rem;   */
+/* } */ 
+
+
+.box{
+    width: 10%;
+}
+/* .aaa{
+    display: grid;
+    grid-template-areas:
+    "card card card"
+    "card card card";
+    grid-template-rows: 100% 100%;
+    grid-template-columns:100% 100% 100%;
+    /* margin-left: 200px; */
+    /* background-color: #F5EEE6; */
+/* } */ 
+.login{
+    margin-left: 40%;
+    margin: 10%;
+    border: solid rgb(246, 246, 246) 10px;
+    height:300%;
+}
+
+.a{
+    width: 10%;
+}
